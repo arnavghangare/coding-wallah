@@ -1,0 +1,404 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+#navigation{
+    /*background-color: antiquewhite;*/
+    height: 15%;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#navpart1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    font-size: 50px;
+    letter-spacing: 4px;
+    align-items: center;
+    padding-left: 100px;
+}
+
+#navpart2{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.box{
+    height: 100%;
+    width: 15%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+#body{
+    height: 100%;
+    width: 92%;
+    background-color: yellow;
+    margin-left: 77px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/6330644/pexels-photo-6330644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    position: relative;
+}
+
+#title{
+    height:15%;
+    width: 90%;
+    color: white;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    position: absolute;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    top:30%;
+    left: 8%;
+}
+
+#subtitle{
+    height: 10%;
+    width: 40%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    letter-spacing: 5px;
+    left: 32%;
+    top: 45%;
+}
+
+#button{
+    height: 5%;
+    width: 11%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    position: absolute;
+    letter-spacing: 5px;
+    left: 47%;
+    top: 60%;
+    font-size: 17px;
+    border: 2px solid white;
+}
+
+#button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    transition: 4s;
+    transform: translateX(10px);
+    transform: rotate(360deg);
+}
+
+#body1{
+    background-color: white;
+    height: 120%;
+    width: 92%;
+    align-content: center;
+    justify-content: center;
+    margin-left: 77px;
+    margin-top: 20px;
+    background-image: url("https://i0.wp.com/junilearning.com/wp-content/uploads/2020/06/python-programming-language.webp?fit=800%2C800&ssl=1");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#whatispython{
+    margin-bottom: 40%;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 70%;
+    font-size: 60px;
+    display: flex;
+    position: absolute;
+    left: 17%;
+    top: 120%;
+}
+
+#answer1{
+    height: 15%;
+    width: 70%;
+    font-size: 30px;
+    display: flex;
+    position: absolute;
+    left: 17%;
+    top: 140%;
+    text-align: center;
+}
+
+#whypython{
+    height: 15%;
+    width: 70%;
+    display: flex;
+    position: absolute;
+    top: 175%;
+    left: 35%;
+    font-size: 60px;
+}
+
+#answer2{
+    height: 15%;
+    width: 70%;
+    font-size: 30px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    top: 188%;
+    left: 17% ;
+}
+
+.box:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+#end{
+    background-color: rgb(170, 170, 170);
+    height: 35%;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#txt{
+    font-size: 28px;
+    margin-left: 4%;
+    position: absolute;
+    color: white;
+    height: 5%;
+    width: 10%;
+    position: absolute;
+    top: 245%;
+}
+
+#email{
+    font-size: 20px;
+    margin-left: 6%;
+    position: absolute;
+    color: white;
+    position: absolute;
+    top: 255%;
+}
+
+#pn{
+    font-size: 20px;
+    margin-left: 6%;
+    position: absolute;
+    color: white;
+    position: absolute;
+    top: 265%;
+}
+
+#endimg{
+    height: 32%;
+    width: 30%;
+    position: absolute;
+    left: 60%;
+    background-image: url("https://happycoding.io/images/logo-800x400.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.btn{
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid black;
+  position: absolute;
+  top: 225%;
+  left: 43%;
+  background-color: white;
+  color: black;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+} 
+
+.btn:hover{
+    background-color: rgb(236, 235, 235);
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px){
+    #logo{
+        font-size: 10px;
+        position: absolute;
+        left: 40px;
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+
+    #navigation{
+        height: 10%;
+        width: 100%;
+    }
+
+    #main{
+        height: 100%;
+        width: 100%;
+    }
+
+    #navpart2{
+        font-size: 0.4em;
+        position: absolute;
+        left: 55%;
+        bottom: 40%;
+        height: 20%;
+        display: flex;
+        width: 65%;
+    }
+
+    #body{
+        height: 60%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+    }
+
+    #title{
+        font-size: 20px;
+        /* background-color: yellow; */
+        color: white;
+        width: 80%;
+        letter-spacing: 2px;
+        position: absolute;
+        left: 10%;
+        top: 28%;
+    }
+
+    #subtitle{
+        font-size: 15px;
+        /* background-color: yellow; */
+        color: white;
+        letter-spacing: 2px;
+        width: 70%;
+        position: absolute;
+        left: 15%;
+        top: 40%;
+    }
+
+    #button{
+        /* background-color: yellow; */
+        width: 40%;
+        letter-spacing: 2px;
+        position: absolute;
+        left: 30%;
+        top: 53%;
+        font-size: 15px;
+        border: 1px solid white;
+    }
+
+    #body1{
+        height: 80%;
+        width: 94%;
+        margin-left: 20px;
+        background-size: contain;
+    }
+
+    #whatispython{
+        font-size: 20px;
+        top: 75%;
+    }
+
+    #answer1{
+        font-size: 12px;
+        top: 88%;
+        text-align: justify;
+    }
+
+    #whypython{
+        font-size: 20px;
+        top: 114%;
+        left: 25%;
+    }
+
+    #answer2{
+        font-size: 12px;
+        top: 120%;
+        text-align: justify;
+    }
+
+    .btn{
+        font-size: 12px;
+        width: 40%;
+        position: absolute;
+        top: 145%;
+        left: 30%;
+    }
+
+    #end{
+        height: 40%;
+        width: 100%
+    }
+
+    #txt{
+        font-size: 15px;
+        top: 159%;
+        width: 50%;
+    }
+
+    #email{
+        font-size: 15px;
+        top: 165%;
+    }
+
+    #pn{
+        font-size: 15px;
+        top: 171%;
+    }
+
+    #endimg{
+        height: 20%;
+        width: 50%;
+        left:25%;
+        top: 174%;
+    }
+}
